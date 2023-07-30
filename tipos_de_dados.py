@@ -1,0 +1,5 @@
+print(1+2)
+print(1.7+4+1.2)
+print(True)
+print(False)
+print("Linguagem Python")
