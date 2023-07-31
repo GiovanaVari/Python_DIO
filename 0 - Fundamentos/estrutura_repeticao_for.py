@@ -2,14 +2,14 @@ texto = input("Informe um texto: ")
 VOGAIS = "AEIOU"
 
 
-# Exemplo utilizando um iterável
+                                            # Exemplo utilizando um iterável
 for letra in texto:
     if letra.upper() in VOGAIS:
         print(letra, end="")
 else:
-    print()  # Adiciona uma quebra de linha
+    print()                                 # Adiciona uma quebra de linha
 
 
-# Exemplo utilizando a função built-in range
-for numero in range(0, 51, 5):                          # Star, Stop, Step (0, 51, 5)
+                                            # Exemplo utilizando a função built-in range
+for numero in range(0, 51, 5):              # Star, Stop, Step                                  (0, 51, 5)
     print(numero, end=" ")
